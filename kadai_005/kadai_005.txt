@@ -20,3 +20,4 @@ Initialized empty Git repository in /Users/kojimakenta/Desktop/samurai-engineer/
 (base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % git log --oneline
 443f5a6 (HEAD -> main) 日本語訳を追記
 5eadc1b hello_world.txtを追加
+再提出
