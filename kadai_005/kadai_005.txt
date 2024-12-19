@@ -1,0 +1,22 @@
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % pwd
+/Users/kojimakenta/Desktop/samurai-engineer/kadai/3-Git/git_challenge
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/kojimakenta/Desktop/samurai-engineer/kadai/3-Git/git_challenge/.git/
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % touch hello_world.txt
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % touch .gitignore
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % echo ".DS_Store" > .gitignore
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % echo 'Hello, world!' > hello_world.txt
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % git add .
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 5eadc1b] hello_world.txtを追加
+ 2 files changed, 2 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 hello_world.txt
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % echo 'こんにちは、世界！' > hello_world.txt
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % git add .
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % git commit -m "日本語訳を追記"
+[main 443f5a6] 日本語訳を追記
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+(base) kojimakenta@kojimakentanoMacBook-Pro git_challenge % git log --oneline
+443f5a6 (HEAD -> main) 日本語訳を追記
+5eadc1b hello_world.txtを追加
